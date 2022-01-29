@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #15a195;
+  padding: 0.1px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+} 
+.navbar_mid {
+    overflow: hidden;
+    background-color:#20a195;
+    left:50%;
+}
+  
+  /* Style the navigation bar links */
+  .navbar_mid a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+  
+  /* Change color on hover */
+  .navbar_mid a:hover {
+    background-color: #139489;
+    color: white;
+  }
+  
+  /* Active/current link */
+  .navbar_mid a.active {
+    background-color:#225f63;
+    color: white;
+  }
+
+.footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:#15a195;
+        }
+.footer h5 
+{
+  text-align: center;
+  font-size: 10px;
+  color: black;
+}
+
+
+/*adduser font*/
+h2
+{
+  font-size: 30px;
+  text-align: center;
+}
+form{
+
+  margin-top: 2px;
+  text-align: center;
+}
+.button
+{
+  margin: 10px;
+}
+.editbutt
+{
+    background-color: #15a195;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 20px 300px;
+  cursor: pointer;
+
+}
+.icon{
+  position: absolute;
+  top: 40%;
+  width: 20%;
+  height: auto;
+  opacity: 0.3;
+}
+li{
+  text-align : left;
+}

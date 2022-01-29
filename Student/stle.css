@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #15a195;
+  padding: 0.1px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+} 
+.navbar_mid {
+    overflow: hidden;
+    background-color:#20a195;
+    left:50%;
+   
+  }
+  
+  /* Style the navigation bar links */
+  .navbar_mid a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .navbar_mid a:hover {
+    background-color: #139489;
+    color: white;
+  }
+  
+  /* Active/current link */
+  .navbar_mid a.active {
+    background-color:#225f63;
+    color: white;
+  }
+.footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 50px;
+            background-color:#15a195;
+        }
+.footer h5 
+{
+  text-align: center;
+  font-size: 10px;
+  color: black;
+}
+
+h2
+{
+  text-align: center;
+}
+
+.myDiv {
+  
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    bottom: 0px;
+    
+  }
+
+.menu_box{
+  background-color: #15a195;
+  width: 100px;
+  height: 1000px;
+  padding: 50px;
+  margin: 20px;
+  position: left;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.formcenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.announcementbox {
+  float: right; 
+  background-color: #ddd; 
+  width: 415px; 
+  height: 420px; 
+  border: 2px solid black; 
+  margin: 10px
+}
+#cc-homepage-announcements {
+  height: 390px; 
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  padding: 6px; 
+  text-align: left;
+}
+
+ 
+ 
+ 
+body{
+  background-color: #f3f5f9;
+}
+ 

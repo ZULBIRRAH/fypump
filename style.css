@@ -1,0 +1,80 @@
+/*main all */
+body {
+    background: #15a195;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+/*logo ump*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*login page text*/
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+
+/* middle part */
+.box{
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 15px;
+    background: #d4d4d4; /*greycolor*/
+    border-radius: 15px;
+}
+
+table{
+    padding-top: 35px;
+    width: 65%;
+    margin:auto;
+}
+td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-align: center;
+    width: 40%;
+}
+
+.col{
+    width: 40%;
+}
+
+.users{
+    width: 96%;
+    height: 33px;
+
+}
+.submit{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 185px;
+    border:none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* End of midlle part */
+.footer{
+    background-color: #15a195;
+    margin-top: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+
